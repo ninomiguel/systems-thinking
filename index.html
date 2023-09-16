@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>SMSYST</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/img/pic2.jpg" alt="" class="nav__logo-img">
+                    SMSYST
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link" onclick="setActiveLink(this)">Home</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="link.html" class="nav__link" onclick="setActiveLink(this)">Link</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="video.html" class="nav__link" onclick="setActiveLink(this)">Video</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="activity.html" class="nav__link" onclick="setActiveLink(this)">Activity</a>
+                        </li>
+                        
+
+                        
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/pic1.jpg" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Interconnectedness of All Things</h4>
+                                
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 Everything is connected</h3>
+                                    <h1 class="home__title">Principles <br> of Systems <br> Thinking</h1>
+                                    <p class="home__description">Hi! I'm Miguel, but you can call me Anonymous. I'm learning about Systems Thinking Principles. These principles help us understand how complex systems work. We can use them to solve problems and make better decisions.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="link.html" class="button">Learn Now</a>
+                                        <a href="#" class="button--link button--flex">Continue Learning <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 2 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/pic3.jpg" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Emergence</h4>
+                                        
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#2 The whole is greater than the sum of its parts</h3>
+                                    
+                                    <h1 class="home__title">Unlocking the Power<br> of Systems <br> Thinking</h1>
+                                    <p class="home__description">The behavior of a system cannot be explained by simply looking at the individual parts. The system as a whole has its own unique properties that emerge from the interactions of the parts.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="link.html" class="button">Learn Now</a>
+                                        <a href="#" class="button--link button--flex">Continue Learning <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 3 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/pic4.jpg" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Power of Feedback Loops</h4>
+                                        
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#3 Feedback Loops</h3>
+                        
+                                    <h1 class="home__title">Navigating <br> System <br> Dynamics</h1>
+                                    <p class="home__description">Feedback loops are the connections between different parts of a system. They can be reinforcing or balancing. Reinforcing feedback loops amplify change, while balancing feedback loops dampen change.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="link.html" class="button">Learn Now</a>
+                                        <a href="#" class="button--link button--flex">Continue Learning <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== CATEGORY ====================-->
+            <section class="section category">
+                <h2 class="section__title">Introduction to Systems Thinking</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/" alt="" class="category__img">
+                        <h3 class="category__title">What is Systems Thinking?</h3>
+                        <p class="category__description">Systems thinking is a way of understanding how things are connected and how they work together as a whole.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category2-img.png" alt="" class="category__img">
+                        <h3 class="category__title">What is a System?</h3>
+                        <p class="category__description">A system is a group of things that work together to achieve a common goal.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category3-img.png" alt="" class="category__img">
+                        <h3 class="category__title">What is a Systems Perspective?</h3>
+                        <p class="category__description">The systems perspective is a way of seeing the world as a connected whole, rather than a collection of separate objects.</p>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">         
+
+            <span class="footer__copy">Copyright &copy; 2023 Systems Thinking. All rigths reserved</span>
+        </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            function setActiveLink(clickedLink) {
+            // Remove the "active-link" class from all links
+            const navLinks = document.querySelectorAll(".nav__link");
+            navLinks.forEach(link => link.classList.remove("active-link"));
+
+            // Add the "active-link" class to the clicked link
+            clickedLink.classList.add("active-link");
+        }
+
+        </script>
+    </body>
+</html>

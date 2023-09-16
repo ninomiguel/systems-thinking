@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>SMSYST</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    SMSYST
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link" onclick="setActiveLink(this)">Home</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="link.html" class="nav__link" onclick="setActiveLink(this)">Link</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="video.html" class="nav__link" onclick="setActiveLink(this)">Video</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="activity.html" class="nav__link" onclick="setActiveLink(this)">Activity</a>
+                        </li>
+                        
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+
+
+            <!--==================== OUR VIDEO ====================-->
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">What is Systems Thinking?</h2>
+                    <!-- Embedded YouTube Video -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FW6MXqzeg7M?si=V6gzjC3-SPB4UVWe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">         
+
+            <span class="footer__copy">Copyright &copy; 2023 Systems Thinking. All rigths reserved</span>
+        </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script>
+            function setActiveLink(clickedLink) {
+            // Remove the "active-link" class from all links
+            const navLinks = document.querySelectorAll(".nav__link");
+            navLinks.forEach(link => link.classList.remove("active-link"));
+
+            // Add the "active-link" class to the clicked link
+            clickedLink.classList.add("active-link");
+        }
+
+        </script>
+        
+        
+    </body>
+
+</html>
